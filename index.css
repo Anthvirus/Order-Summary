@@ -67,7 +67,7 @@ a:hover{
     body{
         background-image: url(pattern-background-mobile.svg);
         justify-content: center;
-        min-height: 100vh;
+        min-height: 120vh;
         align-items: center;
         display: flex;
         background-repeat: no-repeat;
