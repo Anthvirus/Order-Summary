@@ -65,7 +65,7 @@ a:hover{
 }
 @media (max-width: 499px) {
     body{
-        background-image: url(pattern-background-mobile.svg) #E1E9Ff;
+        background-image: url(pattern-background-mobile.svg), #E1E9Ff;
         justify-content: center;
         min-height: 100vh;
         align-items: center;
@@ -82,7 +82,7 @@ a:hover{
         min-height: 100vh;
         align-items: center;
         display: flex;
-        background-image: url(pattern-background-desktop.svg) #E1E9Ff;
+        background-image: url(pattern-background-desktop.svg), #E1E9Ff;
         background-repeat: no-repeat, no-repeat;
         background-size: contain;
         background-position-x: -1px;
