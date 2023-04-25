@@ -38,14 +38,14 @@ h4{
 }
 .btn{
     background-color: rgb(42, 5, 202);
-    color:aliceblue;
+    color: aliceblue;
     font-weight: 500;
     font-size: smaller;
     box-shadow: 0px 2px 20px rgba(85, 10, 146, 0.411);
 }
 .btn:hover{
     background-color: rgb(129, 107, 224);
-    color:aliceblue;
+    color: aliceblue;
 }
 a{
     color: rgba(73, 72, 72, 0.719);
@@ -65,12 +65,12 @@ a:hover{
 }
 @media (max-width: 499px) {
     body{
-        background-image: url(pattern-background-mobile.svg);
+        background-image: url(pattern-background-mobile.svg) #E1E9Ff;
         justify-content: center;
-        min-height: 120vh;
+        min-height: 100vh;
         align-items: center;
         display: flex;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat, no-repeat;
         background-size: 100%;
         background-blend-mode: darken;
         font-family: 'Red Hat Display';
@@ -82,8 +82,8 @@ a:hover{
         min-height: 100vh;
         align-items: center;
         display: flex;
-        background-image: url(pattern-background-desktop.svg);
-        background-repeat: no-repeat;
+        background-image: url(pattern-background-desktop.svg) #E1E9Ff;
+        background-repeat: no-repeat, no-repeat;
         background-size: contain;
         background-position-x: -1px;
         font-family: 'Red Hat Display';
